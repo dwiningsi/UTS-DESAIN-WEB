@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px;
+    background-color: gray;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+body {
+    background-image: url(img/WAEREBO.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 60%;
+    color: white;
+    margin: 10% 10% 0 10%;
+}
+
+.container p {
+    margin-top: 15px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.container button {
+    margin-top: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.container .gambar {
+    background-color: rgb(255, 255, 58);
+}
+
+.container .video {
+    background-color: rgb(34, 231, 34);
+}
+
+.row1 {
+    padding: 10% 20% 10% 20%;
+}
+
+.row2 {
+    padding: 0 20% 20% 20%;
+}
+
+.row1 img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.row1 h3 {
+    margin-top: 60px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.row1 p {
+    color: white;
+}
+
+.row2 img{
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.row2 h3 {
+    margin-top: 60px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.row2 h3, .row2 p {
+    text-align: right;
+    color: white;
+}
